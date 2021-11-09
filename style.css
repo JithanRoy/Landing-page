@@ -1,0 +1,40 @@
+*{
+    margin: 0px auto;
+}
+body{
+    background-color: #EEEEEE;
+}
+header{
+    height: 95px;
+}
+.logo img{
+    width: 50%;
+    height: 100%;
+    max-width: 300px;
+    float: left;
+    margin: 30px 20px;
+}
+#nav-bar {
+    width: 50%;
+    float: right;
+    margin-top: 35px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+#form {
+    text-align: center;
+    height: 300px;
+}
+#form h3 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
