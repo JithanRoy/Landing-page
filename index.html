@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/8f78bd1d60.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
 </head>
 <body>
     <header id="header">
@@ -25,10 +31,99 @@
     <section class="">
             <form action="" id="form">
                 <h3>Handcrafted, home-made masterpiceces</h3>
-                <label for="email"><input id="submit" type="email", name="email" placeholder="Enter your email address"></label>
+                <label for="email"><input id="inputEmail" type="email", name="email" pattern=".+@globex\.com" placeholder="Enter your email address"></label>
                     <br>
-                <label for="validation"><input type="button" value="GET STARTED" id="submit"></label>
+                <label for="validation"><input src="https://www.freecodecamp.org/email-submit" id="submit" type="button" value="GET STARTED" id="submit"></label>
             </form>
     </section>
+
+    <div class="container">
+        <section class="feature">
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-fire" aria-hidden="true"></i>
+                </div>
+    
+                <div class="desc">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+    
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-truck" aria-hidden="true"></i>
+                </div>
+    
+                <div class="desc">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <i class="fas fa-battery-three-quarters"></i>
+                </div>
+                <div class="desc">
+                    <h2>Premium Materials</h2>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div>
+    
+            </div>
+        </section>
+    </div>
+
+    <section class="video-link">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kEFIdXzQXYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    
+    <section id="pricing">
+        <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+            <div style="margin: 0px; text-align: center; font-weight: 900;font-size: 18px;" class="card-header">Tenor Trombone</div>
+            <div class="card-body">
+              <h5 class="card-title">$600</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+            <div style="margin: 0px; text-align: center; font-weight: 900;font-size: 18px;" class="card-header">Tenor Trombone</div>
+            <div class="card-body">
+              <h5 class="card-title">$600</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+            <div style="margin: 0px; text-align: center; font-weight: 900;font-size: 18px;" class="card-header">Tenor Trombone</div>
+            <div class="card-body">
+              <h5 class="card-title">$600</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+
+          <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+            <div style="margin: 0px; text-align: center; font-weight: 900;font-size: 18px;" class="card-header">Tenor Trombone</div>
+            <div class="card-body">
+              <h5 class="card-title">$600</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+    </section>
+
+    <footer class="information d-flex">
+        <div class="bd-highlight footeri">
+            <div class="p-2 bd-highlight ">Privacy</div>
+            <div class="p-2 bd-highlight ">Terms</div>
+            <div class="p-2 bd-highlight ">Conditions</div>
+          </div>
+          <div>
+            <p style="font-size: 12px; padding-top: 11px;">Copyright 2016, Original Trombones</p>
+          </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

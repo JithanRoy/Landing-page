@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
 *{
     margin: 0px auto;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: #EEEEEE;
 }
 header{
     height: 95px;
+}
+.container{
+    max-width: 1000px;
+    width: 100%;
 }
 .logo img{
     width: 50%;
@@ -32,9 +38,67 @@ ul{
 
 #form {
     text-align: center;
-    height: 300px;
+    height: 200px;
 }
 #form h3 {
     padding-bottom: 20px;
     font-size: 30px;
+}
+
+#inputEmail {
+    margin-bottom: 20px;
+    width: 275px;
+    height: 25px;
+}
+#submit{
+    height: 30px;
+    width: 120px;
+    background-color: gold;
+    border-radius: 5px;
+    box-shadow: 2px solid gray;
+    font-weight: bold;
+}
+
+.grid {
+    display: flex;
+    margin: 15px auto;
+}
+.icon{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon i {
+    font-size: 3em;
+    color: #ff6126;
+    margin-left: 0px;
+
+}
+
+.desc {
+    padding-top: 20px;
+}
+
+.video-link {
+    display: flex;
+    margin: 70px auto;
+}
+
+#pricing {
+    display: flex;
+    max-width: 1200px;
+}
+
+.information {
+    padding: 20px;
+    height: 76px;
+    width: 100%;
+    background-color: #DDDDDD;
+    float: right;
+}
+
+.footeri {
+   display: inline-flex;
 }
